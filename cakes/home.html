@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>B&B Bakery</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link rel="stylesheet" type="text/css" href="mine.css">
- 
+<style type="text/css">
+  img
+  {
+    min-height: 500px;
+  }
+</style> 
 </head>
 <body >
-<div class="container " style="background-color:#E74C3C;padding-top: 5px">
+<div class="container" style="background-color:#E74C3C;padding-top: 5px">
    <div class="row">
     <div class="col-sm-8">
       <p><b> 0124-4570637, +91-7838553318/ 9 (10 AM - 8 PM)</b>  </p>
@@ -21,33 +26,105 @@
     </div>
   </div>
 </div>
-<div class="container">
+<hr>
+<div class="container" style="background-color: #E74C3C">
   <ul class="nav nav-tabs">
-    <li class="active"><a href="home.html">Home</a></li>
+    <li class="active"><a href="home.html"><font color="lime"><b>Home</b></font></a></li>
     <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1 <span class="caret"></span></a>
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#"><font color="lime"><b>Menu 1 </b></font><span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="submenu1.html">Submenu 1-1</a></li>
-        <li><a href="submenu2.html">Submenu 1-2</a></li>
-        <li><a href="submenu3.html">Submenu 1-3</a></li>                        
+        <li><a href="submenu1.html">Cakes</a></li>
+        <li><a href="submenu2.html">Sweets</a></li>
+        <li><a href="submenu3.html">Toys & Gifts</a></li>                        
       </ul>
     </li>
   </ul>
 </div>
-<div class="container ">
-  <pre>
-      Get Fresh Cakes, Flowers and all Party supplies home delivered in gurgaon
-      Buy Cakes Online or pay cash on delivery in complete gurgaon
-      New Varaities of Cakes
-      Your Saviour: Cake and flowers in 2 hours
-      Cake2you: Combining Technology with Food
-      Lots of Stuff along with Cake or Flowers or Combos
-      Delivery In almost all areas of Gurgaon
-      Looking for same day delivery : We deliver within few hours
-      Planning for a suprize cake at Restaurant party
-      Different And Unique Cakes
-  </pre>
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+             </ol>
+
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="item active">
+            <img src="../images/cg1.webp" alt="birthday cake" >
+              <div class="carousel-caption">
+                <h3>Happy Birthday!!</h3>
+                <p>Enjoy your best day with our birthday cartons!</p>
+              </div>
+            </div>
+
+            <div class="item">
+            <img src="../images/cg2.webp" alt="honey cake" >
+              <div class="carousel-caption">
+                <h3>Oreoooo!!!</h3>
+                <p>Wahh!Chocolate delight!</p>
+              </div>
+            </div>
+    
+            <div class="item">
+            <img src="../images/cg3.webp" alt="muffin" >
+              <div class="carousel-caption">
+                <h3>Muffins!</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+            <div class="item">
+            <img src="../images/cg4.webp" alt="velvet cake" >
+              <div class="carousel-caption">
+                <h3>Velvet Delight!</h3>
+                <p>hmmm!creamyy!!!</p>
+              </div>
+            </div>
+            <div class="item">
+            <img src="../images/cg5.webp" alt="oreo cake" >
+              <div class="carousel-caption">
+                <h3>alasss!!!</h3>
+                <p>Wahh!Yummyyy!</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    
+ 
+      <div class="col-sm-8">
+        <pre>
+          <ul>
+            <li>Get Fresh Cakes, Flowers and all Party supplies home delivered in gurgaon</li>
+            <li>Buy Cakes Online or pay cash on delivery in complete gurgaon</li>
+            <li>New Varaities of Cakes</li>
+            <li>Your Saviour: Cake and flowers in 2 hours</li>
+            <li>Cake2you: Combining Technology with Food</li>
+            <li>Lots of Stuff along with Cake or Flowers or Combos</li>
+            <li>Delivery In almost all areas of Gurgaon</li>
+            <li>Looking for same day delivery : We deliver within few hours</li>
+            <li>Planning for a suprize cake at Restaurant party</li>
+            <li>Different And Unique Cakes</li>
+        </pre>
+      </div>
+    </div>
+  </div>
 <div class="container " style="background-color:#E74C3C;padding-top: 5px">
    <div class="row">
     <div class="col-sm-10">
