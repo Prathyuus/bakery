@@ -1,0 +1,26 @@
+body {
+    background-color: #F7DC6F;
+}
+
+
+container .b
+{  
+ background-color:#E74C3C;
+	font-family: arial;
+	padding-top: 5px;
+	color: white;
+}
+
+container .c
+{
+	font-family:arial;
+	background-color:#E74C3C;
+	padding-top: 5px;
+	color: white;
+}
+p
+{
+	font-family: Georgia Header;
+	font-size: 3;
+	color: white;
+}
