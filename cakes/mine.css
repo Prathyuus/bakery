@@ -1,5 +1,5 @@
 body {
-    
+    background-color: white;
 }
 
 p
@@ -33,5 +33,11 @@ img a{
 }
 font
 {
-	color: deeppink;
+	color: #ff1d8e;
+	font-family: Algeria;
+}
+hr
+{
+	color: #ff1d8e;
+	size: 30;
 }
